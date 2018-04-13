@@ -1,0 +1,14 @@
+<suite name="BaiduSearch" parallel="none">
+	<parameter name="classfullname" value="LMS" />
+
+	<test name="Test1" preserve_order="true">
+		<classes>
+			<class name="com.company.testSuites.businessA.BaiduSearch" />
+		</classes>
+	</test>
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+
+</suite>
